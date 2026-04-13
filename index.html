@@ -1,20 +1,24 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>My Map Project</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Map Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
     <!-- do the code thing here -->
-        <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Fossil Map</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -34,6 +38,52 @@
         </div>
     </nav>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    </body>
+    <p class="d-inline-flex gap-1">
+        <a id="Abelisaurus" class="btn btn-danger btn-sm" data-bs-toggle="collapse" href="#collapseWidthExample" role="button"
+            aria-expanded="false" aria-controls="collapseWidthExample">
+            Anacleto Formation
+        </a>
+    </p>
+    <div style=" position: absolute; bottom: 125px; left: 550px;">
+        <div class="collapse collapse-horizontal" id="collapseWidthExample">
+            <div class="card card-body" style="width: 300px;">
+                Abelisaurus
+            </div>
+        </div>
+    </div>
+
+    <p class="d-inline-flex gap-1">
+        <a id="Rugops" class="btn btn-danger btn-sm" data-bs-toggle="collapse" href="#collapse" role="button"
+            aria-expanded="false" aria-controls="collapse">
+            Echkar Formation
+        </a>
+    </p>
+    <div style=" position: absolute; bottom: 475px; left: 950px;">
+        <div class="collapse collapse-horizontal" id="collapse">
+            <div class="card card-body" style="width: 300px;">
+                Rugops
+            </div>
+        </div>
+    </div>
+
+    <p class="d-inline-flex gap-1">
+        <a id="Rajasaurus" class="btn btn-danger btn-sm" data-bs-toggle="collapse" href="#collapseExample" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            Lameta Formation
+        </a>
+    </p>
+    <div style=" position: absolute; bottom: 545px; left: 1300px;">
+        <div class="collapse collapse-horizontal" id="collapseExample">
+            <div class="card card-body" style="width: 300px;">
+                Rajasaurus
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
